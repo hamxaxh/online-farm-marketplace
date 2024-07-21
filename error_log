@@ -1,0 +1,12 @@
+[26-Aug-2023 12:46:39 Asia/Dubai] PHP Notice:  Undefined variable: pdo in /home/aizahjbj/public_html/demo/header.php on line 16
+[26-Aug-2023 12:46:39 Asia/Dubai] PHP Fatal error:  Uncaught Error: Call to a member function prepare() on null in /home/aizahjbj/public_html/demo/header.php:16
+Stack trace:
+#0 /home/aizahjbj/public_html/demo/index.php(2): include()
+#1 {main}
+  thrown in /home/aizahjbj/public_html/demo/header.php on line 16
+[26-Aug-2023 12:56:35 Asia/Dubai] PHP Notice:  Undefined index: email in /home/aizahjbj/public_html/demo/verify.php on line 10
+[26-Aug-2023 12:56:35 Asia/Dubai] PHP Notice:  Undefined index: email in /home/aizahjbj/public_html/demo/verify.php on line 23
+[26-Aug-2023 12:57:27 Asia/Dubai] PHP Notice:  Undefined index: email in /home/aizahjbj/public_html/demo/verify.php on line 10
+[26-Aug-2023 12:57:27 Asia/Dubai] PHP Notice:  Undefined index: email in /home/aizahjbj/public_html/demo/verify.php on line 23
+[26-Aug-2023 12:58:13 Asia/Dubai] PHP Notice:  Undefined index: email in /home/aizahjbj/public_html/demo/verify.php on line 10
+[26-Aug-2023 12:58:13 Asia/Dubai] PHP Notice:  Undefined index: email in /home/aizahjbj/public_html/demo/verify.php on line 23

@@ -1,0 +1,680 @@
+
+/*  14.  LOGIN CSS START
+/*----------------------------------------*/
+
+.basic-login {
+    padding: 90px;
+    border: 2px solid #eaedff;
+  }
+  
+  @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .basic-login {
+        padding: 50px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px) {
+    .basic-login {
+        padding: 40px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .basic-login {
+        padding: 30px;
+    }
+  }
+  
+  .basic-login h3 {
+    font-size: 30px;
+  }
+  
+  .basic-login input {
+    width: 100%;
+    height: 60px;
+    border: 2px solid #eaedff;
+    color: #6f7172;
+    padding: 0 20px;
+    margin-bottom: 20px;
+  }
+  
+  .product__nav-img.w-img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .product__nav-img.w-img img {
+    height: 100%;
+    object-fit: cover;
+    width: 100%;
+  }
+  
+  .basic-login select {
+    width: 100%;
+    height: 60px;
+    border: 2px solid #eaedff;
+    color: #6f7172;
+    padding: 0 20px;
+    margin-bottom: 20px;
+  }
+  
+  .basic-login input::placeholder,
+  .basic-login input::-moz-placeholder {
+    color: #6f7172;
+  }
+  
+  .basic-login label {
+    color: #222;
+    display: block;
+  }
+  
+  .basic-login label span {
+    color: red;
+  }
+  
+  .login-action input {
+    width: inherit;
+    height: auto;
+  }
+  
+  .login-action label {
+    display: inline-block;
+    margin-left: 5px;
+  }
+  
+  .or-divide {
+    border-top: 2px solid #eaedff;
+    margin: 40px 0;
+    text-align: center;
+    position: relative;
+  }
+  
+  .or-divide span {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: -9px;
+    background: #ffffff;
+    display: inline-block;
+    width: 40px;
+    margin: auto;
+    line-height: 1;
+    font-weight: 500;
+  }
+  
+  @media (max-width: 767px) {
+    .forgot-login {
+        float: none;
+    }
+  }
+  
+  .forgot-login a {
+    color: #201f1f;
+  }
+  
+  .forgot-login a:hover {
+    color: #f4cf08;
+  }
+  
+  @media (max-width: 767px) {
+    .log-rem {
+        float: none;
+        margin-bottom: 10px;
+        display: block;
+    }
+  }
+  
+  .profile__basic-inner {
+    border-bottom: 1px solid #eceaea;
+    padding: 15px 30px;
+    padding-right: 40px;
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
+    .profile__basic-thumb {
+        margin-bottom: 20px;
+    }
+  }
+  
+  .profile__basic-thumb img {
+    width: 70px;
+    height: 70px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    border: 1px solid #e4e4e4;
+  }
+  
+  .profile__basic-title {
+    font-size: 22px;
+    color: #000;
+    font-weight: 400;
+    margin-bottom: 5px;
+  }
+  
+  .profile__basic-title span {
+    font-weight: 600;
+  }
+  
+  .profile__basic-content p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #000;
+    margin-bottom: 0;
+  }
+  
+  .profile__basic-content p a {
+    font-weight: 500;
+    color: #f4cf08;
+  }
+  
+  @media only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
+    .profile__basic-cart {
+        margin-top: 25px;
+    }
+  }
+  
+  .profile__basic-cart .cart-info a {
+    font-size: 16px;
+    color: #000;
+    text-transform: capitalize;
+    font-weight: 500;
+  }
+  
+  .profile__basic-cart .cart-info a:hover {
+    color: #f4cf08;
+  }
+  
+  .profile__basic-cart .cart-item a {
+    position: relative;
+    font-size: 18px;
+    color: #000;
+  }
+  
+  .profile__basic-cart .cart-item a:hover {
+    color: #f4cf08;
+  }
+  
+  .profile__basic-cart .cart-quantity {
+    position: absolute;
+    bottom: -4px;
+    right: -7px;
+    font-size: 10px;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    text-align: center;
+    line-height: 17px;
+    background-color: #f4cf08;
+    color: #fff;
+    font-weight: 500;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+  }
+  
+  .profile__menu-left {
+    padding: 26px 20px 5px;
+    border: 1px solid #eceaea;
+  }
+  
+  .profile__menu-title {
+    font-size: 14px;
+    font-weight: 600;
+    color: #f4cf08;
+    border-bottom: 1px solid #eceaea;
+    margin-bottom: 0;
+    padding-bottom: 20px;
+  }
+  
+  .profile__menu-title i {
+    width: 10px;
+    margin-right: 10px;
+    display: inline-block;
+  }
+  
+  .profile__menu-tab .nav-tabs {
+    padding: 0;
+    margin: 0;
+    border: 0;
+  }
+  
+  .profile__menu-tab .nav-tabs .nav-link {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-size: 14px;
+    font-weight: 500;
+    color: #000;
+    text-align: left;
+    padding: 15px 0;
+    background-color: transparent;
+    transition: all 0.3s ease-out 0s;
+  }
+  
+  .profile__menu-tab .nav-tabs .nav-link:not(:last-child) {
+    border-bottom: 1px solid #e4e4e4;
+  }
+  
+  .profile__menu-tab .nav-tabs .nav-link.active {
+    transition: all 0.3s ease-out 0s;
+  }
+  
+  .profile__menu-tab .nav-tabs .nav-link.active,
+  .profile__menu-tab .nav-tabs .nav-link:hover {
+    color: #f4cf08;
+  }
+  
+  .profile__menu-tab .nav-tabs .nav-link i {
+    margin-right: 10px;
+    width: 10px;
+    display: inline-block;
+  }
+  
+  .profile__info-top {
+    padding: 20px 70px;
+    background-color: #fff;
+    margin-bottom: 15px;
+  }
+  
+  @media (max-width: 575px) {
+    .profile__info-top {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+  }
+  
+  .profile__info-btn {
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+    background-color: transparent;
+  }
+  
+  .profile__info-btn i {
+    margin-right: 5px;
+  }
+  
+  .profile__info-btn:hover {
+    color: #f4cf08;
+  }
+  
+  .profile__info-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 0;
+  }
+  
+  .profile__info-title i {
+    width: 10px;
+    margin-right: 10px;
+    display: inline-block;
+  }
+  
+  .profile__info-wrapper {
+    padding: 0 70px;
+  }
+  
+  @media (max-width: 575px) {
+    .profile__info-wrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+  }
+  
+  .profile__info-item {
+    padding: 30px 0;
+  }
+  
+  .profile__info-item:not(:last-child) {
+    border-bottom: 1px solid #eceaea;
+  }
+  
+  .profile__info-item p {
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #000;
+    margin-bottom: 10px;
+    line-height: 1;
+  }
+  
+  .profile__info-item h4 {
+    font-size: 16px;
+    line-height: 1;
+    margin-bottom: 0;
+  }
+  
+  .profile__edit-wrapper {
+    padding: 40px 60px;
+  }
+  
+  @media (max-width: 575px) {
+    .profile__edit-wrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+  }
+  
+  .profile__edit-input {
+    margin-bottom: 25px;
+  }
+  
+  .profile__edit-input p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0;
+    color: #000;
+  }
+  
+  .profile__edit-input input {
+    width: 100%;
+    height: 60px;
+    line-height: 56px;
+    background: var(--tp-grey-2);
+    border: 1px solid #ececec;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding-left: 30px;
+    padding-right: 45px;
+  }
+  
+  .profile__edit-input input::placeholder {
+    color: #8d8e9a;
+    font-weight: 500;
+  }
+  
+  .profile__edit-input input:focus {
+    border-color: #f4cf08;
+    background-color: #fff;
+  }
+  
+  .profile__edit-close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+  }
+  
+  .profile__edit-close-btn {
+    font-size: 15px;
+    color: #6f7172;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    text-align: center;
+    border: 1px solid #e4e4e4;
+  }
+  
+  .profile__edit-close-btn:hover {
+    color: #fff;
+    background-color: #f4cf08;
+    border-color: #f4cf08;
+  }
+  
+  .order__info-top {
+    padding: 20px 70px;
+    background-color: #fff;
+    margin-bottom: 15px;
+  }
+  
+  @media (max-width: 575px) {
+    .order__info-top {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+  }
+  
+  .order__info-btn {
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+    background-color: transparent;
+  }
+  
+  .order__info-btn i {
+    margin-right: 5px;
+  }
+  
+  .order__info-btn:hover {
+    color: #f4cf08;
+  }
+  
+  .order__info-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 0;
+  }
+  
+  .order__info-title i {
+    width: 10px;
+    margin-right: 10px;
+    display: inline-block;
+  }
+  
+  .order__info-wrapper {
+    padding: 0 70px;
+  }
+  
+  .order__info-item {
+    padding: 30px 0;
+  }
+  
+  .order__info-item:not(:last-child) {
+    border-bottom: 1px solid #eceaea;
+  }
+  
+  .order__info-item p {
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #000;
+    margin-bottom: 10px;
+    line-height: 1;
+  }
+  
+  .order__info-item h4 {
+    font-size: 16px;
+    line-height: 1;
+    margin-bottom: 0;
+  }
+  
+  .order__list {
+    padding: 35px 70px 5px;
+  }
+  
+  @media (max-width: 575px) {
+    .order__list {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+  }
+  
+  @media only screen and (min-width: 768px) and (max-width: 991px),
+  only screen and (min-width: 576px) and (max-width: 767px),
+  (max-width: 575px) {
+    .order__list .table {
+        width: 600px;
+    }
+  }
+  
+  .order__list table {
+    border: 0;
+  }
+  
+  .order__list table th {
+    border-bottom: 1px solid #e4e4e4;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+  }
+  
+  .order__list table th td {
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .order__list table tr:not(:last-child) {
+    border-bottom: 1px solid #e4e4e4;
+  }
+  
+  .order__list table> :not(:first-child) {
+    border-top: 1px solid #e4e4e4;
+  }
+  
+  .order__list .table> :not(caption)>*>* {
+    border: 0;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  
+  .order__list tbody tr td {
+    padding: 20px 0;
+  }
+  
+  .order__id {
+    color: #f4cf08;
+    font-weight: 500;
+  }
+  
+  .order__view-btn {
+    font-weight: 500;
+    color: #000;
+  }
+  
+  .order__view-btn:hover {
+    color: #f4cf08;
+  }
+  
+  .order__title:hover {
+    color: #f4cf08;
+  }
+  
+  .password__change-top {
+    padding: 20px 70px;
+    background-color: #fff;
+    margin-bottom: 15px;
+  }
+  
+  @media (max-width: 575px) {
+    .password__change-top {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+  }
+  
+  .password__change-btn {
+    font-size: 14px;
+    color: #000;
+    font-weight: 500;
+  }
+  
+  .password__change-btn i {
+    margin-right: 5px;
+  }
+  
+  .password__change-btn:hover {
+    color: #f4cf08;
+  }
+  
+  .password__change-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+    margin-bottom: 0;
+  }
+  
+  .password__change-title i {
+    width: 10px;
+    margin-right: 10px;
+    display: inline-block;
+  }
+  
+  .password__change-wrapper {
+    padding: 0 70px;
+  }
+  
+  @media (max-width: 575px) {
+    .password__change-wrapper {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+  }
+  
+  .password__change-item {
+    padding: 30px 0;
+  }
+  
+  .password__change-item:not(:last-child) {
+    border-bottom: 1px solid #eceaea;
+  }
+  
+  .password__change-item p {
+    font-size: 14px;
+    text-transform: capitalize;
+    color: #000;
+    margin-bottom: 10px;
+    line-height: 1;
+  }
+  
+  .password__change-item h4 {
+    font-size: 16px;
+    line-height: 1;
+    margin-bottom: 0;
+  }
+  
+  .password__form {
+    padding: 35px 70px;
+  }
+  
+  @media (max-width: 575px) {
+    .password__form {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+  }
+  
+  .password__input {
+    margin-bottom: 25px;
+  }
+  
+  .password__input p {
+    font-size: 16px;
+    font-weight: 500;
+    margin-bottom: 0;
+    color: #000;
+  }
+  
+  .password__input input {
+    width: 100%;
+    height: 60px;
+    line-height: 56px;
+    background: var(--tp-grey-2);
+    border: 1px solid #ececec;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    padding-left: 30px;
+    padding-right: 45px;
+  }
+  
+  .password__input input::placeholder {
+    color: #8d8e9a;
+    font-weight: 500;
+  }
+  
+  .password__input input:focus {
+    border-color: #f4cf08;
+    background-color: #fff;
+  }
+ 
+  
+  .pb-70 {
+    padding-bottom: 70px;
+  }
+  .pt-70 {
+    padding-top: 70px;
+  }
+  
